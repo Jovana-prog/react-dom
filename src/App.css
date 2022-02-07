@@ -1,0 +1,159 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(236, 163, 163);
+  border-bottom-style: solid;
+  border-bottom-width: 12px;
+  border-bottom-color: rgb(228, 99, 149);
+  align-items: center;
+  min-height: 40px;
+  padding-left: 1025px;
+  font-size: large;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+  color:#d83c6b;
+}
+
+.cart-num {
+  background-color: rgb(226, 30, 92);
+  color: rgb(241, 215, 226);
+  border-radius: 0px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+}
+
+.all-products {
+  display: flex;
+  margin: 20px;
+}
+
+.card {
+  border-style: solid;
+  border-width: 0px;
+  border-color: #d83c6b;
+  border-radius: 0px;
+  max-width: 200px;
+  
+}
+
+.card-img-top {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.card-body {
+  margin: 20px;
+  width: fit-content;
+  color: #86062c;
+}
+
+.btn {
+  background-color: rgb(233, 138, 161);
+  color: rgb(231, 24, 104);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 3px;
+  border-radius: 0px;
+  border-width: 5px;
+  border-color: #86062c;
+}
+
+a {
+  color: rgb(131, 8, 39);
+ 
+  cursor: pointer;
+}
+
+.cart-container {
+  margin: 20px;
+  
+}
+
+.card-cart {
+  display: inline-block;
+  flex-direction: row;
+  border-style: solid;
+  border-width: 0px;
+  border-color: rgb(207, 13, 13);
+  border-radius: 0px;
+  background-color: #e47697;
+  max-width: 300px;
+  text-emphasis-color: #e47697;
+}
+
+.card-img-left {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  max-width: 300px;
+}
+
+.cart-text{
+ 
+  color: rgb(236, 13, 50);
+  font-size:xx-large;
+  font-style: italic;
+
+
+}
+
+.wrapper {
+  padding: 5px 20px;
+  color: #e0386b;
+  width:fit-content;
+  font-size: medium;
+  border-radius: 8px;
+  border-color: #300210;
+  border-width: 10px;
+  background-color: #eeb7c7;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.wrapper fieldset {
+  margin: 20px 0;
+  color: #e02c62;
+  width: fit-content;
+  border-color: #86062c;
+  border-width: 3px;
+  background-color: #e02c62;
+}
+.mejl-holder{
+  font-size: small;
+  font-style: italic;
+  color: aliceblue;
+}
+
+.mejl-naslov{
+  font-size: large;
+  font-style: italic;
+}
+
+.btn-potvrdi{
+
+  padding: 5px 20px;
+  color: #30010f;
+  width:fit-content;
+  font-size: medium;
+  border-radius: 8px;
+  font-weight: bold;
+  font-style:italic;  
+  background-color: #eb5e86;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-color: #86062c;
+}
